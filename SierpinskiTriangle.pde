@@ -1,6 +1,6 @@
 public void setup()
 {
-	size(600,600);
+	size(700,700);
 	background(104, 252, 175);
 }
 int r = 70;
@@ -9,10 +9,10 @@ int b = 225;
 public void draw()
 {
 	fill(104,252,115);
-	rect(0,0,600,600);
+	rect(0,0,700,700);
 	int len = 500;
 	len = mouseX;
-	sierpinski(50,550,len);
+	sierpinski(50,650,len);
 }
 public void mouseDragged()//optional
 {
